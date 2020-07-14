@@ -1,0 +1,7 @@
+Exit status:
+
+Exit status codes range from 0 - 255.
+0 - success
+other than 0 - error
+
+After execution of any command, we can check for the exit status of the command using "$?"
