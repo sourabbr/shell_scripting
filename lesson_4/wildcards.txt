@@ -1,0 +1,28 @@
+Wildcards
+
+It is a character or string used for pattern matching.
+
+* - Matches zero or more characters
+Eg: *.txt , a* , a*.txt
+
+? - Matches exactly one character
+Eg: ?.txt , a? , a?.txt
+
+[] - A character class. Matches any of the characters included between the brackets. Matches exactly one character.
+Eg: [aeiou] , ca[nt]* = can, cat, candy, catch
+
+[!] - Matches any of the character NOT included between the brackets. Matches exactly one character.
+Eg: [!aeiou]* = baseball, cricket
+
+[char - char] - Range
+Eg: [a-g]* = Matches all files that start with a,b,c,d,e,f or g
+[3-6]* = Matches all files that start with 3,4,5,6
+
+Named character classes
+
+Syntax: [[:name]]
+Name = alpha, alnum, digit, lower, space, upper
+
+\ - Escape charater. This is used to match a wild character.
+Eg: *\text*\
+
