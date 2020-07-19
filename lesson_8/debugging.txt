@@ -1,0 +1,15 @@
+Debugging:
+
+-x = Show execution of each line
+-e = Exit on error
+Can be combined with other options.
+Eg: #!/bin/bash -ex , #!/bin/bash -xe , #!/bin/bash -e -x , #!/bin/bash -x -e
+The other does not matters
+
+-v = Prints shell input lines as they are read.
+
+To more debugging options:
+help set | less
+
+
+You can change the output of debugging by changing the "PS4" variable
