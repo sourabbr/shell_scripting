@@ -1,0 +1,10 @@
+Logging:
+
+In linux for logging we can use Syslog.
+The syslog standard uses facilities and severities to categorize messages.
+Facilities: kern, user, mail, daemon, auth, local0, local7
+Severities: emerg, alert, crit, err, warning, notice, info, debug
+
+Log file locations are configurable:
+/var/log/messages
+/var/log/syslog
